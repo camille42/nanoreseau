@@ -1,4 +1,4 @@
-16947657987550553
+16937896547907818
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -75256,45 +75256,3 @@ varistor SIOV
 0
 2
 2
-nano
-9202
-
-
-0
-0
-0
-nano
-BUS_AT
-AT ISA 16 bits Bus Edge Connector
-BUS ISA AT Edge connector
-0
-98
-98
-nano
-BUS_AT_8bits
-AT ISA 16 bits Bus Edge Connector
-BUS ISA AT Edge connector
-0
-62
-62
-nano
-SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm
-SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, bridged with 1 copper strip
-solder jumper open
-0
-2
-2
-nano
-bottom
-
-
-0
-0
-0
-nano
-top
-
-
-0
-0
-0
