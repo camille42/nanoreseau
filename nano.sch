@@ -1,0 +1,104 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 74xx:74LS123 U?
+U 1 1 60F81F4A
+P 1650 1550
+F 0 "U?" H 1650 2017 50  0000 C CNN
+F 1 "74LS123" H 1650 1926 50  0000 C CNN
+F 2 "" H 1650 1550 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS123" H 1650 1550 50  0001 C CNN
+	1    1650 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS393 U?
+U 1 1 60F82566
+P 3200 1550
+F 0 "U?" H 3200 1917 50  0000 C CNN
+F 1 "74LS393" H 3200 1826 50  0000 C CNN
+F 2 "" H 3200 1550 50  0001 C CNN
+F 3 "74xx\\74LS393.pdf" H 3200 1550 50  0001 C CNN
+	1    3200 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS14 U?
+U 1 1 60F83180
+P 1550 2600
+F 0 "U?" H 1550 2917 50  0000 C CNN
+F 1 "74LS14" H 1550 2826 50  0000 C CNN
+F 2 "" H 1550 2600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS14" H 1550 2600 50  0001 C CNN
+	1    1550 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS04 U?
+U 1 1 60F85A32
+P 1550 3250
+F 0 "U?" H 1550 3567 50  0000 C CNN
+F 1 "74LS04" H 1550 3476 50  0000 C CNN
+F 2 "" H 1550 3250 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 1550 3250 50  0001 C CNN
+	1    1550 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS11 U?
+U 1 1 60F8754D
+P 3350 2400
+F 0 "U?" H 3350 2725 50  0000 C CNN
+F 1 "74LS11" H 3350 2634 50  0000 C CNN
+F 2 "" H 3350 2400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS11" H 3350 2400 50  0001 C CNN
+	1    3350 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS138 U?
+U 1 1 60F8954F
+P 4650 2500
+F 0 "U?" H 4650 3281 50  0000 C CNN
+F 1 "74LS138" H 4650 3190 50  0000 C CNN
+F 2 "" H 4650 2500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS138" H 4650 2500 50  0001 C CNN
+	1    4650 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS139 U?
+U 1 1 60F89FD8
+P 4700 3700
+F 0 "U?" H 4700 4067 50  0000 C CNN
+F 1 "74LS139" H 4700 3976 50  0000 C CNN
+F 2 "" H 4700 3700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS139" H 4700 3700 50  0001 C CNN
+	1    4700 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS245 U?
+U 1 1 60F8B36D
+P 3200 3900
+F 0 "U?" H 3200 4881 50  0000 C CNN
+F 1 "74LS245" H 3200 4790 50  0000 C CNN
+F 2 "" H 3200 3900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS245" H 3200 3900 50  0001 C CNN
+	1    3200 3900
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
