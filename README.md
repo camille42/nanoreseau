@@ -2,10 +2,6 @@
 
 Schema pour la carte nanoreseau Thomson
 
-# nanoreseau
-
-Schema pour la carte nanoreseau Thomson
-
 
 Résistances 1/4w +/-5%
 ```
