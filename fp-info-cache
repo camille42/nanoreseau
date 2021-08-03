@@ -1,4 +1,4 @@
-143257291952466
+149773493851516
 Battery_Holders
 Bulgin_BX0036_1xC
 
@@ -51050,14 +51050,42 @@ SolderWirePad_single_SMD_5x10mm
 0
 0
 0
-toto
+nano
+9202
+
+
+0
+0
+0
+nano
+BUS_AT
+AT ISA 16 bits Bus Edge Connector
+BUS ISA AT Edge connector
+0
+98
+98
+nano
+BUS_AT_8bits
+AT ISA 16 bits Bus Edge Connector
+BUS ISA AT Edge connector
+0
+62
+62
+nano
+SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm
+SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, bridged with 1 copper strip
+solder jumper open
+0
+2
+2
+nano
 bottom
 
 
 0
 0
 0
-toto
+nano
 top
 
 
