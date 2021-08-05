@@ -1,4 +1,4 @@
-149776838218466
+153039843990559
 Battery_Holders
 Bulgin_BX0036_1xC
 
@@ -51071,6 +51071,13 @@ BUS ISA AT Edge connector
 0
 41
 41
+nano
+DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm
+9-pin D-Sub connector, horizontal/angled (90 deg), THT-mount, female, pitch 2.77x2.84mm, pin-PCB-offset 7.699999999999999mm, distance of mounting holes 25mm, distance of mounting holes to PCB edge 9.12mm, see https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf
+9-pin D-Sub connector horizontal angled 90deg THT female pitch 2.77x2.84mm pin-PCB-offset 7.699999999999999mm mounting-holes-distance 25mm mounting-hole-offset 25mm
+0
+11
+10
 nano
 SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm
 SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, bridged with 1 copper strip
