@@ -38,3 +38,42 @@ C7: céramique 10nF 25V
 C9, C10, C11, C13, C14, C15: céramique 22nF 25V
 C16: electrolytique 10uF 25V
 ```
+
+
+Typical DMA Channel Assignments
+
+| Channel 	      | Assignment                                                   |
+| ----------------|------------------------------------------------------------- |
+| DRQ 0 ( 8-bit) 	| User Available (Business audio)                              |
+| DRQ 1 ( 8-bit) 	| User Available (Business audio or LAN)                       |
+| DRQ 2 ( 8-bit) 	| DISKETTE DRIVE                                               |
+| DRQ 3 ( 8-bit) 	| User Available (Business audio, LPTx - ECP or EPP mode)      |
+| DRQ 4 (16-bit) 	| RESERVED (cascade channel) Memory-(DMA)-REFRESH              |
+| DRQ 5 (16-bit) 	| User Available (ISA bus)                                     |
+| DRQ 6 (16-bit) 	|User Available (ISA bus)                                      |
+| DRQ 7 (16-bit) 	| User Available (ISA bus / 6384 P60/D Hard Disk)              |
+
+
+ Typical IRQ Assignments
+
+
+| Interrupt Ctrl #1 | Interrupt Ctrl #2 | Assignment                                |	8-bit 16-bit type |
+|-------------------|-------------------|--------------------------------------------|----|                       
+| SMI 	  	        |                   | System/Power Management IRQ                |	-- |
+| NMI 	  	        |                   | Parity Error or I/O Channel check          |	-- |
+| IRQ 0 	  	      |                   | Interval Timer 	                           | -- |
+| IRQ 1 	  	      |                   | Keyboard bffr.-full                        |	-- |
+| IRQ 2 	  	      |                   | Cascade IRQ-req. (IRQ-8 to IRQ-15)         |	-- |
+|                   | IRQ 8             | Real Time Clock 	                         | -- |
+|                   | IRQ 9             | Redirect Cascade to IRQ 2 (User Available) | 8/16 |
+|                   | IRQ 10            | User Available                             | 16 |
+|                   | IRQ 11            | User Available (2137-SL A - USB) 	         | 16 |
+|                   | IRQ 12            | Auxiliary device (Mouse) (User Available)  | 16 |
+|                   | IRQ 13            | Math Coprocessor exception 	               | -- |
+|                   | IRQ 14            | Hard Disk (Primary IDE)                    | 16 |
+|                   | IRQ 15            | Secondary IDE (User Available)<br> Used by NOVELL, if installed. |16 |
+| IRQ 3             |                   | COM2: 	                                   | 8/16 |
+| IRQ 4             |                   | COM1: 	                                   | 8/16 |
+| IRQ 5             |                   | LPT2: / Sound Card User Available 	       | 8/16 |
+| IRQ 6             |                   | Diskette drive controller 	               | 8/16 |
+| IRQ 7             |                   | LPT1: (User Available, if shareable) 	     | 8/16 |
