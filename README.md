@@ -81,3 +81,7 @@ Typical DMA Channel Assignments
 Doc sur l'ISA :
 
 http://wearcam.org/ece385/lecture6/isa.htm
+
+Intéressant sur le fonctionnement de l'ISA
+
+https://www.robots.ox.ac.uk/~adutta/blog/interfacing-with-the-isa-bus.html
