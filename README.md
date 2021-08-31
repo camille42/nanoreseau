@@ -77,3 +77,7 @@ Typical DMA Channel Assignments
 | IRQ 5             |                   | LPT2: / Sound Card User Available 	       | 8/16 |
 | IRQ 6             |                   | Diskette drive controller 	               | 8/16 |
 | IRQ 7             |                   | LPT1: (User Available, if shareable) 	     | 8/16 |
+
+Doc sur l'ISA :
+
+http://wearcam.org/ece385/lecture6/isa.htm
