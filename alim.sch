@@ -353,17 +353,17 @@ Connection ~ 2800 2500
 Wire Wire Line
 	4000 2500 4000 2400
 Text GLabel 4950 1700 0    50   Input ~ 0
-ISA_36
+ADDR_04
 Text GLabel 4950 1600 0    50   Input ~ 0
-ISA_35
+ADDR_03
 Text GLabel 4950 1500 0    50   Input ~ 0
-ISA_34
+ADDR_02
 Text GLabel 2300 1700 0    50   Input ~ 0
-ISA_39
+ADDR_07
 Text GLabel 2300 1600 0    50   Input ~ 0
-ISA_38
+ADDR_06
 Text GLabel 2300 1500 0    50   Input ~ 0
-ISA_37
+ADDR_05
 $Comp
 L 74xx:74LS138 IC?
 U 1 1 6132D88D
@@ -665,4 +665,12 @@ Wire Wire Line
 Connection ~ 7000 1850
 Wire Wire Line
 	7150 1850 7150 1900
+Text GLabel 5500 4950 0    50   Input ~ 0
+DDD
+Wire Wire Line
+	5950 2000 6050 2000
+Wire Wire Line
+	5950 2200 6050 2200
+Wire Wire Line
+	5950 1800 6050 1800
 $EndSCHEMATC

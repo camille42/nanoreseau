@@ -1,4 +1,3 @@
 (sym_lib_table
-  (lib (name bottom)(type Legacy)(uri C:/Users/ncrochu/Documents/retro/thomson/nanoreseau/nano/bottom.lib)(options "")(descr ""))
   (lib (name nano)(type Legacy)(uri ${KIPRJMOD}/nano.lib)(options "")(descr ""))
 )
