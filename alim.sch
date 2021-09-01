@@ -397,7 +397,7 @@ P 6650 1850
 AR Path="/6126F7E9/6132D899" Ref="C?"  Part="1" 
 AR Path="/61BDF4AD/6132D899" Ref="C12"  Part="1" 
 F 0 "C12" H 6765 1896 50  0000 L CNN
-F 1 "4,7uF, 35V" H 6765 1805 50  0000 L CNN
+F 1 "4,7uF, 35V" H 6650 2000 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 6688 1700 50  0001 C CNN
 F 3 "~" H 6650 1850 50  0001 C CNN
 	1    6650 1850
@@ -522,7 +522,7 @@ Wire Wire Line
 	6850 1450 6850 1600
 Wire Wire Line
 	6650 1200 6650 1600
-Text GLabel 5950 1500 2    50   Input ~ 0
+Text GLabel 6100 1500 2    50   Input ~ 0
 IC9_9
 Connection ~ 5450 1200
 Wire Wire Line
@@ -626,7 +626,7 @@ Wire Wire Line
 	3800 1850 3800 1500
 Wire Wire Line
 	3550 1500 3800 1500
-Text GLabel 5950 1600 2    50   Input ~ 0
+Text GLabel 6150 1600 2    50   Input ~ 0
 IC9_10
 Wire Wire Line
 	7000 6350 6650 6350
@@ -667,10 +667,27 @@ Wire Wire Line
 	7150 1850 7150 1900
 Text GLabel 5500 4950 0    50   Input ~ 0
 DDD
+NoConn ~ 5950 2200
+NoConn ~ 5950 2000
+NoConn ~ 5950 1800
+NoConn ~ 6150 1800
+NoConn ~ 6150 2000
+NoConn ~ 6150 2200
 Wire Wire Line
-	5950 2000 6050 2000
+	6150 1600 6150 2200
 Wire Wire Line
-	5950 2200 6050 2200
+	5950 1600 6150 1600
 Wire Wire Line
-	5950 1800 6050 1800
+	6100 1500 6050 1500
+Wire Wire Line
+	6050 1500 6050 2100
+Connection ~ 6050 1500
+Wire Wire Line
+	6050 1500 5950 1500
+NoConn ~ 5950 1700
+NoConn ~ 6050 1700
+NoConn ~ 5950 1900
+NoConn ~ 6050 1900
+NoConn ~ 5950 2100
+NoConn ~ 6050 2100
 $EndSCHEMATC
