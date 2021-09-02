@@ -77,15 +77,15 @@ Entry Bus Bus
 $Comp
 L 74xx:74LS04 IC?
 U 2 1 616334FD
-P 10300 1600
+P 2150 3550
 AR Path="/616334FD" Ref="IC?"  Part="2" 
 AR Path="/6123EC51/616334FD" Ref="IC?"  Part="2" 
 AR Path="/6126F7E9/616334FD" Ref="IC8"  Part="2" 
-F 0 "IC8" V 10100 1550 50  0000 R CNN
-F 1 "74LS04" V 10000 1550 50  0000 R CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 10300 1600 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 10300 1600 50  0001 C CNN
-	2    10300 1600
+F 0 "IC8" V 1950 3500 50  0000 R CNN
+F 1 "74LS04" V 1850 3500 50  0000 R CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 2150 3550 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 2150 3550 50  0001 C CNN
+	2    2150 3550
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -222,11 +222,9 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS157" H 9900 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10000 1900 10100 1900
+	10000 1900 10050 1900
 Wire Wire Line
 	9150 1900 9250 1900
-Wire Wire Line
-	9150 2000 10300 2000
 $Comp
 L 74xx:74LS04 IC?
 U 1 1 61633503
@@ -272,11 +270,7 @@ Wire Wire Line
 Wire Wire Line
 	10000 2900 10800 2900
 Wire Wire Line
-	9800 2600 9800 2900
-Wire Wire Line
 	10800 2600 10800 2650
-Wire Wire Line
-	9800 2600 10800 2600
 Wire Wire Line
 	10500 3600 10500 3700
 Wire Wire Line
@@ -429,18 +423,10 @@ Connection ~ 9600 1900
 Wire Wire Line
 	9600 1900 9700 1900
 Wire Wire Line
-	10300 1900 10300 2000
-Wire Wire Line
-	10300 1300 10650 1300
-Wire Wire Line
-	9150 2100 10650 2100
-Wire Wire Line
 	1200 5450 1200 5250
 Wire Wire Line
 	2400 5450 2400 5250
 Connection ~ 11000 3200
-Wire Wire Line
-	10650 2100 10650 1300
 Wire Wire Line
 	8150 1100 8100 1100
 Wire Wire Line
@@ -453,51 +439,17 @@ Wire Wire Line
 	1500 2200 1700 2200
 Connection ~ 2000 3150
 Wire Wire Line
-	1000 1900 1400 1900
-Wire Wire Line
 	2000 2700 2000 2850
 Wire Wire Line
 	1000 2700 1000 2850
 Wire Wire Line
-	600  1650 1100 1650
-Wire Wire Line
-	600  2200 600  1650
-Wire Wire Line
 	650  2100 700  2100
 Wire Wire Line
-	650  2100 650  1750
-Wire Wire Line
-	1000 3150 2000 3150
-Wire Wire Line
-	2000 1900 2400 1900
-Connection ~ 2000 1900
+	1000 3150 1450 3150
 Wire Wire Line
 	900  1200 900  1300
 Wire Wire Line
-	1400 2100 1400 2200
-Connection ~ 1400 2100
-Wire Wire Line
-	1300 2100 1400 2100
-Connection ~ 1400 1900
-Wire Wire Line
-	1400 2200 1300 2200
-Wire Wire Line
-	1400 1900 1400 2100
-Wire Wire Line
-	1400 1900 1400 1300
-Wire Wire Line
-	1100 1650 1100 1200
-Wire Wire Line
 	700  2200 600  2200
-Wire Wire Line
-	1300 1750 650  1750
-Wire Wire Line
-	1300 1200 1300 1750
-Connection ~ 2000 1750
-Wire Wire Line
-	2000 1750 2000 1450
-Wire Wire Line
-	2000 1750 2000 1900
 Wire Wire Line
 	1600 1300 2000 1300
 Wire Wire Line
@@ -587,7 +539,7 @@ F 3 "~" H 2000 3000 50  0001 C CNN
 	1    2000 3000
 	-1   0    0    1   
 $EndComp
-Text GLabel 9150 3100 2    50   Input ~ 0
+Text GLabel 9300 3800 3    50   Input ~ 0
 IC14_27
 Wire Wire Line
 	10900 4000 10900 3850
@@ -724,18 +676,12 @@ Connection ~ 1500 6750
 Wire Wire Line
 	1500 6750 2200 6750
 Wire Wire Line
-	1000 4700 1100 4700
-Wire Wire Line
 	1200 4700 1200 4800
-Connection ~ 1100 4700
-Wire Wire Line
-	1100 4700 1200 4700
 Wire Wire Line
 	1300 4600 1200 4600
 Wire Wire Line
 	1200 4600 1200 4700
 Connection ~ 1200 4700
-Connection ~ 2000 1450
 Wire Wire Line
 	2000 1450 2000 1300
 Wire Wire Line
@@ -760,18 +706,16 @@ Wire Wire Line
 	7200 3600 7100 3600
 Wire Wire Line
 	7100 3400 7200 3400
-Text GLabel 9150 2900 2    50   Input ~ 0
+Text GLabel 9150 3000 2    50   Input ~ 0
 IC14_29
 Text GLabel 2000 7100 3    50   Input ~ 0
-IC14_3
+~DCDA
 Wire Wire Line
 	2000 6350 2000 7100
 Text GLabel 7650 2000 0    50   Input ~ 0
-IC14_3
-Text GLabel 2300 1250 1    50   Input ~ 0
-IC14_9
-Wire Wire Line
-	2300 2100 2300 1250
+~DCDA
+Text GLabel 2300 2000 1    50   Input ~ 0
+~RxDA+RxDB
 Text GLabel 7550 2500 1    50   Input ~ 0
 IC14_9
 Wire Wire Line
@@ -787,9 +731,9 @@ Wire Wire Line
 Wire Wire Line
 	950  4700 1000 4700
 Connection ~ 1000 4700
-Text GLabel 9150 2600 2    50   Input ~ 0
+Text GLabel 9150 2800 2    50   Input ~ 0
 IC14_32
-Text GLabel 9150 2700 2    50   Input ~ 0
+Text GLabel 9150 2900 2    50   Input ~ 0
 IC14_31
 Text GLabel 800  7100 3    50   Input ~ 0
 IC14_31
@@ -802,12 +746,10 @@ IC14_35
 Wire Wire Line
 	1200 6850 1200 7100
 Connection ~ 1000 6850
-Text GLabel 9150 2500 2    50   Input ~ 0
+Text GLabel 9150 2700 2    50   Input ~ 0
 IC14_33
 Wire Wire Line
 	1000 6650 2100 6650
-Text GLabel 9150 2300 2    50   Input ~ 0
-IC14_35
 Text GLabel 1100 7100 3    50   Input ~ 0
 IC14_4
 Wire Wire Line
@@ -827,37 +769,23 @@ Wire Wire Line
 	1100 6850 1200 6850
 Wire Wire Line
 	1000 6850 1000 7100
-Text GLabel 7100 3300 2    50   Input ~ 0
-IC14_36
+Text GLabel 7150 3250 2    50   Input ~ 0
+~TxCA
 Text GLabel 1400 2600 3    50   Input ~ 0
-IC14_36
-Wire Wire Line
-	1300 2400 1400 2400
-Wire Wire Line
-	1400 2400 1400 2600
-Text GLabel 2350 2600 3    50   Input ~ 0
-IC14_37
-Wire Wire Line
-	2300 2400 2350 2400
-Wire Wire Line
-	2350 2400 2350 2600
+~TxCA
 Text GLabel 9150 2200 2    50   Input ~ 0
-IC14_36
+~TxCA
 Text GLabel 3200 6350 2    50   Input ~ 0
 IC14_39
-Text GLabel 9150 3000 2    50   Input ~ 0
+Text GLabel 9150 3100 2    50   Input ~ 0
 IC14_39
 Wire Wire Line
-	7100 3200 7100 3300
-Text GLabel 7650 2100 0    50   Input ~ 0
-IC14_35
+	7100 3200 7100 3250
 Text GLabel 10850 6150 2    50   Input ~ 0
-IC14_36
+~TxCA
 Text GLabel 7650 1800 0    50   Input ~ 0
-IC14_1
+CLK
 Text GLabel 9550 5950 2    50   Input ~ 0
-IC14_1
-Text Notes 9700 5900 0    50   ~ 0
 CLK
 $Comp
 L 74xx:74LS14 IC7
@@ -1159,10 +1087,6 @@ Wire Wire Line
 	5800 4350 6650 4350
 Connection ~ 5300 3150
 Connection ~ 6650 4350
-Text GLabel 1100 4350 1    50   Input ~ 0
-IC14_32
-Wire Wire Line
-	1100 4350 1100 4700
 Text Notes 1950 4650 0    50   ~ 0
 selecteur IO/DRQ1,3
 Wire Wire Line
@@ -1202,7 +1126,7 @@ Wire Wire Line
 	8450 1550 8450 1100
 Text Notes 11200 1550 1    50   ~ 0
 vers selecteur IC11\n9,11,13,15 
-Text Notes 11100 650  3    50   ~ 0
+Text Notes 9800 800  0    50   ~ 0
 vers selecteur IC11\n14,12,7,10\n\n
 Text Label 8600 4600 0    50   ~ 0
 vers~CS
@@ -1226,16 +1150,6 @@ Wire Wire Line
 Wire Wire Line
 	2750 2000 2900 2000
 Wire Wire Line
-	2350 1750 2350 2200
-Wire Wire Line
-	2300 2200 2350 2200
-Wire Wire Line
-	2350 1750 2000 1750
-Wire Wire Line
-	2400 2500 2400 1900
-Wire Wire Line
-	2400 2500 2300 2500
-Wire Wire Line
 	3000 1900 2950 1900
 NoConn ~ 3000 2000
 Wire Wire Line
@@ -1257,8 +1171,6 @@ Wire Wire Line
 	2900 2200 2600 2200
 Wire Wire Line
 	2600 2200 2600 1700
-Wire Wire Line
-	2000 3150 2850 3150
 Wire Wire Line
 	2850 3150 2850 5200
 NoConn ~ 3000 4050
@@ -1325,20 +1237,141 @@ selecteurs IRQ
 $Comp
 L power:GND #PWR?
 U 1 1 61E9BC59
-P 9950 1000
-F 0 "#PWR?" H 9950 750 50  0001 C CNN
-F 1 "GND" H 9955 827 50  0000 C CNN
-F 2 "" H 9950 1000 50  0001 C CNN
-F 3 "" H 9950 1000 50  0001 C CNN
-	1    9950 1000
+P 10050 1900
+F 0 "#PWR?" H 10050 1650 50  0001 C CNN
+F 1 "GND" H 10055 1727 50  0000 C CNN
+F 2 "" H 10050 1900 50  0001 C CNN
+F 3 "" H 10050 1900 50  0001 C CNN
+	1    10050 1900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9950 1000 9950 950 
+	1000 4700 1200 4700
+NoConn ~ 10800 6250
+NoConn ~ 10800 6350
+NoConn ~ 10800 6450
 Wire Wire Line
-	9950 950  10100 950 
+	9150 2300 9400 2300
 Wire Wire Line
-	10100 950  10100 1900
+	9400 2300 9400 2350
+Wire Wire Line
+	9400 2400 9150 2400
+Wire Wire Line
+	9400 2350 9750 2350
+Connection ~ 9400 2350
+Wire Wire Line
+	9400 2350 9400 2400
+Text GLabel 9750 2350 2    50   Input ~ 0
+~RxCA+RxCB
+Wire Wire Line
+	9300 3200 9300 3800
+Wire Wire Line
+	9150 3200 9300 3200
+Wire Wire Line
+	9150 2500 9400 2500
+Wire Wire Line
+	9400 2500 9400 2550
+Wire Wire Line
+	9400 2600 9150 2600
+Wire Wire Line
+	10550 2600 10550 2850
+Wire Wire Line
+	10550 2850 9800 2850
+Wire Wire Line
+	10550 2600 10800 2600
+Wire Wire Line
+	9800 2850 9800 2900
+Wire Wire Line
+	9400 2550 9750 2550
+Connection ~ 9400 2550
+Wire Wire Line
+	9400 2550 9400 2600
+Text GLabel 9750 2550 2    50   Input ~ 0
+~RxDA+RxDB
+Text GLabel 1300 2000 1    50   Input ~ 0
+~RxCA+RxCB
+Wire Wire Line
+	1450 2200 1450 3150
+Connection ~ 1450 3150
+Wire Wire Line
+	1450 3150 2000 3150
+Wire Wire Line
+	1300 2500 1650 2500
+Wire Wire Line
+	1650 2500 1650 2750
+Wire Wire Line
+	1650 2750 2150 2750
+Wire Wire Line
+	2300 2750 2300 2500
+Wire Wire Line
+	2400 2400 2400 2600
+Wire Wire Line
+	2300 2400 2400 2400
+Wire Wire Line
+	1400 2400 1400 2600
+Wire Wire Line
+	1300 2400 1400 2400
+Wire Wire Line
+	2000 1500 2000 1900
+Wire Wire Line
+	2300 2000 2300 2100
+Connection ~ 1450 2200
+Wire Wire Line
+	1300 2200 1450 2200
+Wire Wire Line
+	1100 1350 600  1350
+Wire Wire Line
+	1100 1350 1100 1200
+Wire Wire Line
+	600  1350 600  2200
+Wire Wire Line
+	650  1400 1300 1400
+Wire Wire Line
+	1300 1200 1300 1400
+Wire Wire Line
+	650  1400 650  2100
+Wire Wire Line
+	1300 2000 1300 2100
+Wire Wire Line
+	1450 1500 1000 1500
+Wire Wire Line
+	1000 1500 1000 1900
+Wire Wire Line
+	1450 1500 1450 2200
+Text GLabel 9450 2100 2    50   Input ~ 0
+~TxDA
+Text GLabel 2400 2600 3    50   Input ~ 0
+~TxDA
+Wire Wire Line
+	7150 3250 7100 3250
+Connection ~ 7100 3250
+Wire Wire Line
+	7100 3250 7100 3300
+Wire Wire Line
+	2150 2750 2150 3250
+Connection ~ 2150 2750
+Wire Wire Line
+	2150 2750 2300 2750
+Text GLabel 1850 3850 0    50   Input ~ 0
+~RTSA
+Wire Wire Line
+	1850 3850 2150 3850
+Text GLabel 9150 2000 2    50   Input ~ 0
+~RTSA
+Wire Wire Line
+	9150 2100 9450 2100
+Text GLabel 10100 1900 2    50   Input ~ 0
+IC5_8
+Connection ~ 10050 1900
+Wire Wire Line
+	10050 1900 10100 1900
+Wire Wire Line
+	10800 800  9850 800 
+Wire Wire Line
+	2500 1500 2500 2200
+Connection ~ 2500 3150
+Wire Wire Line
+	2500 3150 2850 3150
 Wire Bus Line
 	4700 1750 4700 2450
 Wire Bus Line
@@ -1349,6 +1382,13 @@ Wire Bus Line
 	6100 1950 6100 3200
 Wire Bus Line
 	7550 3000 7550 4250
-Text Label 10100 950  0    50   ~ 0
-IC5_8
+Connection ~ 2500 2200
+Wire Wire Line
+	2500 2200 2500 3150
+Wire Wire Line
+	2000 1500 2500 1500
+Wire Wire Line
+	2300 2200 2500 2200
+Wire Wire Line
+	2000 3150 2500 3150
 $EndSCHEMATC
