@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 3
+Sheet 1 1
 Title ""
 Date ""
 Rev ""
@@ -235,12 +235,12 @@ $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 612D8F44
-P 7150 1900
-F 0 "#PWR?" H 7150 1650 50  0001 C CNN
-F 1 "GND" H 7155 1727 50  0000 C CNN
-F 2 "" H 7150 1900 50  0001 C CNN
-F 3 "" H 7150 1900 50  0001 C CNN
-	1    7150 1900
+P 3350 2500
+F 0 "#PWR?" H 3350 2250 50  0001 C CNN
+F 1 "GND" H 3355 2327 50  0000 C CNN
+F 2 "" H 3350 2500 50  0001 C CNN
+F 3 "" H 3350 2500 50  0001 C CNN
+	1    3350 2500
 	1    0    0    -1  
 $EndComp
 Text Label 4000 5750 2    50   ~ 0
@@ -332,21 +332,21 @@ Wire Wire Line
 Wire Wire Line
 	6650 2850 6850 2850
 Connection ~ 6650 2850
-Text GLabel 7000 1750 2    50   Input ~ 0
+Text GLabel 8150 1750 2    50   Input ~ 0
 ISA_1
-Text GLabel 6850 1600 2    50   Input ~ 0
+Text GLabel 7000 1600 2    50   Input ~ 0
 ISA_3
 $Comp
 L Device:R_Small R?
 U 1 1 6132D869
-P 4000 1000
+P 2600 3450
 AR Path="/6126F7E9/6132D869" Ref="R?"  Part="1" 
 AR Path="/61BDF4AD/6132D869" Ref="R3"  Part="1" 
-F 0 "R3" V 4100 1000 50  0000 C CNN
-F 1 "4,7k" V 3895 1000 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" H 4000 1000 50  0001 C CNN
-F 3 "~" H 4000 1000 50  0001 C CNN
-	1    4000 1000
+F 0 "R3" V 2700 3450 50  0000 C CNN
+F 1 "4,7k" V 2495 3450 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" H 2600 3450 50  0001 C CNN
+F 3 "~" H 2600 3450 50  0001 C CNN
+	1    2600 3450
 	0    1    1    0   
 $EndComp
 Connection ~ 2800 2500
@@ -370,6 +370,7 @@ U 1 1 6132D88D
 P 5450 1800
 AR Path="/6126F7E9/6132D88D" Ref="IC?"  Part="1" 
 AR Path="/61BDF4AD/6132D88D" Ref="IC11"  Part="1" 
+AR Path="/6132D88D" Ref="IC11"  Part="1" 
 F 0 "IC11" H 5500 2350 50  0000 L CNN
 F 1 "74LS138" H 5500 2250 50  0000 L CNN
 F 2 "Package_DIP:DIP-16_W7.62mm" H 5450 1800 50  0001 C CNN
@@ -443,8 +444,6 @@ F 3 "~" H 850 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1550 1500 1550 1200
-Wire Wire Line
 	1800 2000 2300 2000
 Wire Wire Line
 	1800 2100 1800 2500
@@ -456,20 +455,12 @@ Wire Wire Line
 Wire Wire Line
 	1800 2500 2800 2500
 Wire Wire Line
-	2800 1200 3650 1200
-Connection ~ 2800 1200
-Connection ~ 3650 1200
-Wire Wire Line
-	4000 1200 4000 2100
-Text GLabel 4400 1000 2    50   Input ~ 0
-IC14_27
+	4000 2000 4000 2100
 Wire Wire Line
 	4850 5700 6650 5700
 Connection ~ 5900 5650
 Wire Wire Line
 	4850 6700 6650 6700
-Wire Wire Line
-	7150 1850 7000 1850
 Connection ~ 6850 4950
 Wire Wire Line
 	6850 4950 6850 6000
@@ -514,24 +505,15 @@ Wire Wire Line
 	5900 2550 6650 2550
 Wire Wire Line
 	6650 2000 6650 2150
-Wire Wire Line
-	7000 1850 7000 2150
 Connection ~ 7000 3150
 Connection ~ 6850 2850
 Wire Wire Line
 	6850 1450 6850 1600
-Wire Wire Line
-	6650 1200 6650 1600
-Text GLabel 6100 1500 2    50   Input ~ 0
-IC9_9
-Connection ~ 5450 1200
-Wire Wire Line
-	5450 1200 6650 1200
+Text GLabel 6150 1500 2    50   Output ~ 0
+A_300-303
 Connection ~ 5450 2500
 Wire Wire Line
 	5450 2500 6650 2500
-Wire Wire Line
-	3650 1200 4000 1200
 Wire Wire Line
 	4600 2100 4600 2500
 Wire Wire Line
@@ -539,8 +521,6 @@ Wire Wire Line
 Connection ~ 4600 2500
 Wire Wire Line
 	4600 2500 5450 2500
-Wire Wire Line
-	4400 2000 4400 1000
 Wire Wire Line
 	5900 2550 5250 2550
 Wire Wire Line
@@ -552,25 +532,21 @@ Wire Wire Line
 	4400 2000 4400 3550
 Wire Wire Line
 	4400 3550 5250 3550
-Connection ~ 4400 2000
-Wire Wire Line
-	4400 2000 4950 2000
 $Comp
 L Device:R_Small R?
 U 1 1 614CCF22
-P 3250 1000
+P 1850 3450
 AR Path="/6126F7E9/614CCF22" Ref="R?"  Part="1" 
 AR Path="/61BDF4AD/614CCF22" Ref="R2"  Part="1" 
-F 0 "R2" V 3350 1000 50  0000 C CNN
-F 1 "4,7k" V 3145 1000 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" H 3250 1000 50  0001 C CNN
-F 3 "~" H 3250 1000 50  0001 C CNN
-	1    3250 1000
+F 0 "R2" V 1950 3450 50  0000 C CNN
+F 1 "4,7k" V 1745 3450 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" H 1850 3450 50  0001 C CNN
+F 3 "~" H 1850 3450 50  0001 C CNN
+	1    1850 3450
 	0    1    1    0   
 $EndComp
 Wire Wire Line
 	7000 2150 6650 2150
-Connection ~ 7000 2150
 Wire Wire Line
 	7000 2150 7000 3150
 Connection ~ 6650 2150
@@ -578,37 +554,29 @@ Wire Wire Line
 	6650 2150 6650 2500
 Wire Wire Line
 	6650 1600 6850 1600
-Connection ~ 6650 1600
 Wire Wire Line
 	6650 1600 6650 1700
 Connection ~ 6850 1600
 Wire Wire Line
 	6850 1600 6850 2850
 Wire Wire Line
-	4100 1000 4400 1000
+	2500 3450 2250 3450
 Wire Wire Line
-	3900 1000 3650 1000
-Wire Wire Line
-	3650 1000 3650 1200
-Wire Wire Line
-	3650 1000 3350 1000
-Connection ~ 3650 1000
-Text GLabel 2800 1000 0    50   Input ~ 0
+	2250 3450 1950 3450
+Connection ~ 2250 3450
+Text GLabel 1400 3450 0    50   Input ~ 0
 IC14_33
 Wire Wire Line
-	3150 1000 2800 1000
+	1750 3450 1400 3450
 Wire Wire Line
-	850  1200 850  1850
+	850  1750 850  1850
 Text GLabel 2300 2200 0    50   Input ~ 0
-IC10_4
-Connection ~ 4000 1200
-Wire Wire Line
-	4000 1200 5450 1200
+A_3xx
 Connection ~ 4000 2500
 Wire Wire Line
 	4000 2500 4600 2500
 Wire Wire Line
-	2800 2500 4000 2500
+	2800 2500 3350 2500
 Wire Wire Line
 	3550 1500 3550 1600
 Wire Wire Line
@@ -626,8 +594,8 @@ Wire Wire Line
 	3800 1850 3800 1500
 Wire Wire Line
 	3550 1500 3800 1500
-Text GLabel 6150 1600 2    50   Input ~ 0
-IC9_10
+Text GLabel 6150 1600 2    50   Output ~ 0
+A_304-307
 Wire Wire Line
 	7000 6350 6650 6350
 Wire Wire Line
@@ -640,31 +608,12 @@ Wire Wire Line
 Connection ~ 1550 2500
 Wire Wire Line
 	850  2500 1550 2500
-Connection ~ 1550 1200
-Wire Wire Line
-	1550 1200 2800 1200
-Wire Wire Line
-	850  1200 1550 1200
-Wire Wire Line
-	1800 2500 1800 2650
-Text GLabel 1800 2650 0    50   Input ~ 0
-IC14_29
-Text GLabel 850  2500 0    50   Input ~ 0
-IC13_10
-Text GLabel 850  1200 0    50   Input ~ 0
-IC13_20
 Wire Wire Line
 	1800 550  4400 550 
 Wire Wire Line
-	4400 550  4400 1000
-Wire Wire Line
 	1800 550  1800 2000
-Connection ~ 4400 1000
 Wire Wire Line
-	7000 1750 7000 1850
-Connection ~ 7000 1850
-Wire Wire Line
-	7150 1850 7150 1900
+	8150 1750 8150 1850
 Text GLabel 5500 4950 0    50   Input ~ 0
 DDD
 NoConn ~ 5950 2200
@@ -678,7 +627,7 @@ Wire Wire Line
 Wire Wire Line
 	5950 1600 6150 1600
 Wire Wire Line
-	6100 1500 6050 1500
+	6150 1500 6050 1500
 Wire Wire Line
 	6050 1500 6050 2100
 Connection ~ 6050 1500
@@ -690,4 +639,97 @@ NoConn ~ 5950 1900
 NoConn ~ 6050 1900
 NoConn ~ 5950 2100
 NoConn ~ 6050 2100
+Connection ~ 3350 2500
+Wire Wire Line
+	3350 2500 4000 2500
+$Comp
+L power:GND #PWR?
+U 1 1 61332220
+P 8150 1850
+F 0 "#PWR?" H 8150 1600 50  0001 C CNN
+F 1 "GND" H 8155 1677 50  0000 C CNN
+F 2 "" H 8150 1850 50  0001 C CNN
+F 3 "" H 8150 1850 50  0001 C CNN
+	1    8150 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 1600 6850 1600
+$Comp
+L power:VCC #PWR?
+U 1 1 6134655A
+P 5450 1200
+F 0 "#PWR?" H 5450 1050 50  0001 C CNN
+F 1 "VCC" H 5465 1373 50  0000 C CNN
+F 2 "" H 5450 1200 50  0001 C CNN
+F 3 "" H 5450 1200 50  0001 C CNN
+	1    5450 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 6134C22C
+P 2250 3350
+F 0 "#PWR?" H 2250 3200 50  0001 C CNN
+F 1 "VCC" H 2265 3523 50  0000 C CNN
+F 2 "" H 2250 3350 50  0001 C CNN
+F 3 "" H 2250 3350 50  0001 C CNN
+	1    2250 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 3350 2250 3450
+$Comp
+L power:VCC #PWR?
+U 1 1 61355045
+P 4000 2000
+F 0 "#PWR?" H 4000 1850 50  0001 C CNN
+F 1 "VCC" H 4015 2173 50  0000 C CNN
+F 2 "" H 4000 2000 50  0001 C CNN
+F 3 "" H 4000 2000 50  0001 C CNN
+	1    4000 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 61356035
+P 2800 1200
+F 0 "#PWR?" H 2800 1050 50  0001 C CNN
+F 1 "VCC" H 2815 1373 50  0000 C CNN
+F 2 "" H 2800 1200 50  0001 C CNN
+F 3 "" H 2800 1200 50  0001 C CNN
+	1    2800 1200
+	1    0    0    -1  
+$EndComp
+Text GLabel 3150 3450 2    50   Input ~ 0
+IC14_27
+Wire Wire Line
+	3150 3450 2700 3450
+Wire Wire Line
+	4400 550  4400 2000
+Connection ~ 4400 2000
+Wire Wire Line
+	4400 2000 4950 2000
+$Comp
+L power:VCC #PWR?
+U 1 1 6137A5D8
+P 1550 1500
+F 0 "#PWR?" H 1550 1350 50  0001 C CNN
+F 1 "VCC" H 1565 1673 50  0000 C CNN
+F 2 "" H 1550 1500 50  0001 C CNN
+F 3 "" H 1550 1500 50  0001 C CNN
+	1    1550 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 6137B0FA
+P 850 1750
+F 0 "#PWR?" H 850 1600 50  0001 C CNN
+F 1 "VCC" H 865 1923 50  0000 C CNN
+F 2 "" H 850 1750 50  0001 C CNN
+F 3 "" H 850 1750 50  0001 C CNN
+	1    850  1750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
