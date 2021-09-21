@@ -90,6 +90,13 @@ Intéressant sur le fonctionnement de l'ISA
 
 https://www.robots.ox.ac.uk/~adutta/blog/interfacing-with-the-isa-bus.html
 
+document original , avec du code
+
+https://thelinuxmaniac.wordpress.com/interfacing-with-the-isa-bus/
+
+https://thelinuxmaniac.wordpress.com/isa-c/
+
+
 A voir : 
 
 http://5lair.free.fr/PCB/
