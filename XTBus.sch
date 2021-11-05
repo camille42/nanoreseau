@@ -68,12 +68,6 @@ Entry Bus Bus
 	6000 2250 6100 2350
 Entry Bus Bus
 	6000 2150 6100 2250
-Entry Bus Bus
-	6000 2050 6100 2150
-Entry Bus Bus
-	6000 1950 6100 2050
-Entry Bus Bus
-	6000 1850 6100 1950
 $Comp
 L 74xx:74LS04 IC?
 U 2 1 616334FD
@@ -271,66 +265,66 @@ $EndComp
 $Comp
 L Device:C C?
 U 1 1 61CC5FAE
-P 2350 5700
+P 2450 5700
 AR Path="/61CC5FAE" Ref="C?"  Part="1" 
 AR Path="/6126F7E9/61CC5FAE" Ref="C4"  Part="1" 
-F 0 "C4" V 2600 5650 50  0000 C CNN
-F 1 "10pF, 25V" V 2500 5800 50  0000 C CNN
-F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm" H 2388 5550 50  0001 C CNN
-F 3 "~" H 2350 5700 50  0001 C CNN
-	1    2350 5700
+F 0 "C4" V 2700 5650 50  0000 C CNN
+F 1 "22nF, 25V" V 2600 5800 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm" H 2488 5550 50  0001 C CNN
+F 3 "~" H 2450 5700 50  0001 C CNN
+	1    2450 5700
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R_Small R?
 U 1 1 61CC5FA8
-P 2500 5550
+P 2600 5550
 AR Path="/61CC5FA8" Ref="R?"  Part="1" 
 AR Path="/6126F7E9/61CC5FA8" Ref="R9"  Part="1" 
-F 0 "R9" V 2400 5700 50  0000 C CNN
-F 1 "27k" V 2395 5550 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" H 2500 5550 50  0001 C CNN
-F 3 "~" H 2500 5550 50  0001 C CNN
-	1    2500 5550
+F 0 "R9" V 2500 5700 50  0000 C CNN
+F 1 "27k" V 2495 5550 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" H 2600 5550 50  0001 C CNN
+F 3 "~" H 2600 5550 50  0001 C CNN
+	1    2600 5550
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:C C?
 U 1 1 61CC5FA2
-P 1150 5700
+P 1250 5700
 AR Path="/61CC5FA2" Ref="C?"  Part="1" 
 AR Path="/6126F7E9/61CC5FA2" Ref="C3"  Part="1" 
-F 0 "C3" V 1400 5700 50  0000 C CNN
-F 1 "10pF, 25V" V 1300 5800 50  0000 C CNN
-F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm" H 1188 5550 50  0001 C CNN
-F 3 "~" H 1150 5700 50  0001 C CNN
-	1    1150 5700
+F 0 "C3" V 1500 5700 50  0000 C CNN
+F 1 "10pF, 25V" V 1400 5800 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm" H 1288 5550 50  0001 C CNN
+F 3 "~" H 1250 5700 50  0001 C CNN
+	1    1250 5700
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R_Small R?
 U 1 1 61CC5F9B
-P 1300 5550
+P 1400 5550
 AR Path="/61CC5F9B" Ref="R?"  Part="1" 
 AR Path="/6126F7E9/61CC5F9B" Ref="R8"  Part="1" 
-F 0 "R8" V 1200 5700 50  0000 C CNN
-F 1 "27k" V 1195 5550 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" H 1300 5550 50  0001 C CNN
-F 3 "~" H 1300 5550 50  0001 C CNN
-	1    1300 5550
+F 0 "R8" V 1300 5700 50  0000 C CNN
+F 1 "27k" V 1295 5550 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" H 1400 5550 50  0001 C CNN
+F 3 "~" H 1400 5550 50  0001 C CNN
+	1    1400 5550
 	-1   0    0    1   
 $EndComp
 $Comp
 L 74xx:74LS123 IC?
 U 1 1 61CC5F89
-P 1600 6150
+P 1700 6150
 AR Path="/61CC5F89" Ref="IC?"  Part="1" 
 AR Path="/6126F7E9/61CC5F89" Ref="IC5"  Part="1" 
-F 0 "IC5" V 1646 6480 50  0000 L CNN
-F 1 "74LS123" V 1555 6480 50  0000 L CNN
-F 2 "Package_DIP:DIP-16_W7.62mm" H 1600 6150 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS123" H 1600 6150 50  0001 C CNN
-	1    1600 6150
+F 0 "IC5" V 1746 6480 50  0000 L CNN
+F 1 "74LS123" V 1655 6480 50  0000 L CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 1700 6150 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS123" H 1700 6150 50  0001 C CNN
+	1    1700 6150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -347,9 +341,9 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS09" H 1850 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1300 5450 1300 5250
+	1400 5450 1400 5350
 Wire Wire Line
-	2500 5450 2500 5250
+	2600 5450 2600 5350
 Connection ~ 11000 3200
 Wire Wire Line
 	8150 1100 8100 1100
@@ -389,7 +383,7 @@ P 2000 2300
 AR Path="/618F36AE" Ref="IC?"  Part="1" 
 AR Path="/6126F7E9/618F36AE" Ref="IC3"  Part="1" 
 F 0 "IC3" H 2100 2700 50  0000 L CNN
-F 1 "SN75176AP" H 2050 2850 50  0000 L CNN
+F 1 "SN75176AP" H 2050 2800 50  0000 L CNN
 F 2 "Package_DIP:DIP-8_W7.62mm" H 2000 1800 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn75176a.pdf" H 3600 2100 50  0001 C CNN
 	1    2000 2300
@@ -456,29 +450,27 @@ $EndComp
 $Comp
 L 74xx:74LS393 IC6
 U 2 1 612CF566
-P 10350 6000
-F 0 "IC6" H 10350 6367 50  0000 C CNN
-F 1 "74LS393" H 10350 6276 50  0000 C CNN
-F 2 "" H 10350 6000 50  0001 C CNN
-F 3 "74xx\\74LS393.pdf" H 10350 6000 50  0001 C CNN
-	2    10350 6000
+P 10100 5950
+F 0 "IC6" H 10100 6317 50  0000 C CNN
+F 1 "74LS393" H 10100 6226 50  0000 C CNN
+F 2 "" H 10100 5950 50  0001 C CNN
+F 3 "74xx\\74LS393.pdf" H 10100 5950 50  0001 C CNN
+	2    10100 5950
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:74LS393 IC6
 U 1 1 612D03CA
-P 9050 6000
-F 0 "IC6" H 9050 6367 50  0000 C CNN
-F 1 "74LS393" H 9050 6276 50  0000 C CNN
-F 2 "" H 9050 6000 50  0001 C CNN
-F 3 "74xx\\74LS393.pdf" H 9050 6000 50  0001 C CNN
-	1    9050 6000
+P 8800 5950
+F 0 "IC6" H 8800 6317 50  0000 C CNN
+F 1 "74LS393" H 8800 6226 50  0000 C CNN
+F 2 "" H 8800 5950 50  0001 C CNN
+F 3 "74xx\\74LS393.pdf" H 8800 5950 50  0001 C CNN
+	1    8800 5950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10900 5900 10850 5900
-Wire Wire Line
-	2800 6650 2300 6650
+	10650 5850 10600 5850
 $Comp
 L 74xx:74LS14 IC7
 U 6 1 61765142
@@ -492,71 +484,55 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS14" H 5200 900 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4900 750  4900 900 
-Text GLabel 7950 5900 0    50   Input ~ 0
+Text GLabel 7700 5850 0    50   Input ~ 0
 OSC
 $Comp
 L 74xx:74LS123 IC5
 U 2 1 612C3ABC
-P 2800 6150
-F 0 "IC5" V 2846 6480 50  0000 L CNN
-F 1 "74LS123" V 2755 6480 50  0000 L CNN
-F 2 "Package_DIP:DIP-16_W7.62mm" H 2800 6150 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS123" H 2800 6150 50  0001 C CNN
-	2    2800 6150
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VCC #PWR?
-U 1 1 61BD3D83
-P 1800 5250
-F 0 "#PWR?" H 1800 5100 50  0001 C CNN
-F 1 "VCC" H 1815 5423 50  0000 C CNN
-F 2 "" H 1800 5250 50  0001 C CNN
-F 3 "" H 1800 5250 50  0001 C CNN
-	1    1800 5250
+P 2900 6150
+F 0 "IC5" V 2946 6480 50  0000 L CNN
+F 1 "74LS123" V 2855 6480 50  0000 L CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 2900 6150 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS123" H 2900 6150 50  0001 C CNN
+	2    2900 6150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2300 5950 2300 5800
+	2400 5950 2400 5800
 Wire Wire Line
-	2300 5800 2500 5800
+	2400 5800 2600 5800
 Wire Wire Line
-	2500 5800 2500 5700
+	2600 5800 2600 5700
 Wire Wire Line
-	2300 6350 2300 6650
-Connection ~ 2300 6650
+	1400 5800 1200 5800
 Wire Wire Line
-	2300 6750 2300 6650
+	1200 5800 1200 5950
 Wire Wire Line
-	1300 5800 1100 5800
+	1400 5650 1400 5700
+Connection ~ 1400 5700
 Wire Wire Line
-	1100 5800 1100 5950
+	1400 5700 1400 5800
 Wire Wire Line
-	1300 5650 1300 5700
-Connection ~ 1300 5700
+	1100 5700 1100 6050
 Wire Wire Line
-	1300 5700 1300 5800
+	1100 6050 1200 6050
+Connection ~ 2600 5700
 Wire Wire Line
-	1000 5700 1000 6050
+	2600 5700 2600 5650
 Wire Wire Line
-	1000 6050 1100 6050
-Connection ~ 2500 5700
+	2300 5700 2300 6050
 Wire Wire Line
-	2500 5700 2500 5650
+	2300 6050 2400 6050
 Wire Wire Line
-	2200 5700 2200 6050
+	1200 6350 1200 6400
 Wire Wire Line
-	2200 6050 2300 6050
+	2300 6250 2300 6700
 Wire Wire Line
-	1100 6350 1100 6400
+	2300 6250 2400 6250
 Wire Wire Line
-	2200 6250 2200 6650
+	1700 6750 1700 6650
 Wire Wire Line
-	2200 6250 2300 6250
-Wire Wire Line
-	1600 6750 1600 6650
-Wire Wire Line
-	1600 6750 2300 6750
+	1700 6750 2400 6750
 Wire Wire Line
 	1550 4250 1450 4250
 Wire Wire Line
@@ -565,10 +541,10 @@ Text GLabel 11000 3050 1    50   Input ~ 0
 A_300-303
 Text GLabel 10900 3050 1    50   Input ~ 0
 A_304-307
-Text GLabel 2100 7100 3    50   Output ~ 0
+Text GLabel 2250 6900 2    50   Output ~ 0
 ~DCDA
 Wire Wire Line
-	2100 6350 2100 7100
+	2200 6350 2200 6900
 Text GLabel 7650 2000 0    50   Input ~ 0
 ~DCDA
 Text GLabel 2300 2000 1    50   Output ~ 0
@@ -579,11 +555,11 @@ Text GLabel 9150 2800 2    50   Input ~ 0
 WAITA\
 Text GLabel 9150 2900 2    50   Output ~ 0
 DTRA_HAO
-Text GLabel 1000 6250 0    50   Input ~ 0
+Text GLabel 1100 6250 0    50   Input ~ 0
 DTRA_HAO
 Wire Wire Line
-	1100 6250 1000 6250
-Text GLabel 1050 6400 0    50   Input ~ 0
+	1200 6250 1100 6250
+Text GLabel 1150 6400 0    50   Input ~ 0
 ~RxCA+RxCB
 Text GLabel 9150 2700 2    50   Input ~ 0
 IC14_33
@@ -595,27 +571,27 @@ Text GLabel 1500 2400 2    50   Input ~ 0
 ~TxCA
 Text GLabel 9150 2200 2    50   Input ~ 0
 ~TxCA
-Text GLabel 3300 6350 2    50   Output ~ 0
+Text GLabel 3400 6350 2    50   Output ~ 0
 ~CTSA
 Text GLabel 9150 3100 2    50   Input ~ 0
 ~CTSA
 Wire Wire Line
 	7000 2550 7000 2600
-Text GLabel 10900 5900 2    50   Output ~ 0
+Text GLabel 10650 5850 2    50   Output ~ 0
 ~TxCA
 Text GLabel 7650 1800 0    50   Input ~ 0
 CLK
-Text GLabel 9550 6000 2    50   Output ~ 0
+Text GLabel 9300 5950 2    50   Output ~ 0
 CLK
 $Comp
 L 74xx:74LS14 IC7
 U 5 1 616DE40C
-P 8250 5900
-F 0 "IC7" H 8250 6217 50  0000 C CNN
-F 1 "74LS14" H 8250 6126 50  0000 C CNN
-F 2 "" H 8250 5900 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS14" H 8250 5900 50  0001 C CNN
-	5    8250 5900
+P 8000 5850
+F 0 "IC7" H 8000 6167 50  0000 C CNN
+F 1 "74LS14" H 8000 6076 50  0000 C CNN
+F 2 "" H 8000 5850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS14" H 8000 5850 50  0001 C CNN
+	5    8000 5850
 	1    0    0    -1  
 $EndComp
 Text GLabel 3000 2900 0    50   Output ~ 0
@@ -641,31 +617,31 @@ Entry Bus Bus
 Entry Bus Bus
 	5800 1850 5900 1950
 Wire Wire Line
-	6050 5300 6050 5500
+	5400 5200 5400 5450
 $Comp
 L 74xx:74LS139 IC?
 U 1 1 613FE48D
-P 5900 4500
+P 5900 4400
 AR Path="/613FE48D" Ref="IC?"  Part="1" 
 AR Path="/6126F7E9/613FE48D" Ref="IC12"  Part="1" 
-F 0 "IC12" H 5900 4867 50  0000 C CNN
-F 1 "74LS139" H 5900 4776 50  0000 C CNN
-F 2 "" H 5900 4500 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74ls139a.pdf" H 5900 4500 50  0001 C CNN
-	1    5900 4500
+F 0 "IC12" H 5900 4767 50  0000 C CNN
+F 1 "74LS139" H 5900 4676 50  0000 C CNN
+F 2 "" H 5900 4400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74ls139a.pdf" H 5900 4400 50  0001 C CNN
+	1    5900 4400
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:74LS139 IC?
 U 2 1 613FE485
-P 6550 5100
+P 5900 5000
 AR Path="/613FE485" Ref="IC?"  Part="2" 
 AR Path="/6126F7E9/613FE485" Ref="IC12"  Part="2" 
-F 0 "IC12" H 6550 4750 50  0000 C CNN
-F 1 "74LS139" H 6550 5376 50  0000 C CNN
-F 2 "" H 6550 5100 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74ls139a.pdf" H 6550 5100 50  0001 C CNN
-	2    6550 5100
+F 0 "IC12" H 5900 4650 50  0000 C CNN
+F 1 "74LS139" H 5900 5276 50  0000 C CNN
+F 2 "" H 5900 5000 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74ls139a.pdf" H 5900 5000 50  0001 C CNN
+	2    5900 5000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -719,45 +695,45 @@ A6
 Text GLabel 4600 4100 2    50   Output ~ 0
 A7
 Wire Wire Line
-	5000 4000 5000 5100
+	5000 4000 5000 5000
 Wire Wire Line
-	5000 5100 6050 5100
+	5000 5000 5400 5000
 Wire Wire Line
-	5050 3900 5050 5000
+	5050 3900 5050 4900
 Wire Wire Line
 	5050 3900 4400 3900
 Wire Wire Line
-	5050 5000 6050 5000
+	5050 4900 5400 4900
 Wire Wire Line
-	4550 3850 5100 3850
+	4550 3750 5100 3750
 Wire Wire Line
-	5100 3850 5100 4700
+	5100 3750 5100 4600
 Wire Wire Line
-	4600 3400 4600 3800
+	4600 3400 4600 3650
 Wire Wire Line
-	4600 3800 5150 3800
+	4600 3650 5150 3650
 Wire Wire Line
-	5150 3800 5150 4500
+	5150 3650 5150 4400
 Wire Wire Line
-	5150 4500 5400 4500
+	5150 4400 5400 4400
 Wire Wire Line
-	5100 4700 5400 4700
+	5100 4600 5400 4600
 Wire Wire Line
-	5400 4400 5200 4400
+	5400 4300 5200 4300
 Wire Wire Line
-	5200 4400 5200 3750
+	5200 4300 5200 3550
 Wire Wire Line
-	5200 3750 4650 3750
+	5200 3550 4650 3550
 Wire Wire Line
-	4650 3750 4650 3300
+	4650 3550 4650 3300
 Wire Wire Line
 	4650 3300 4400 3300
 Wire Wire Line
-	7150 5500 6050 5500
-Text GLabel 7300 5300 2    50   Output ~ 0
+	6500 5450 5400 5450
+Text GLabel 6600 5200 2    50   Output ~ 0
 A_3xx
 Wire Wire Line
-	7050 5300 7300 5300
+	6400 5200 6600 5200
 Wire Bus Line
 	5900 1950 6000 1950
 Wire Wire Line
@@ -804,19 +780,19 @@ $EndComp
 Text GLabel 4800 2750 0    50   Input ~ 0
 ~IOR
 Wire Wire Line
-	4800 2850 4800 3700
+	4800 2850 4800 3450
 Wire Wire Line
-	5250 3700 5250 4050
+	5700 3450 5700 3900
 Wire Wire Line
-	5250 4050 7250 4050
+	5700 3900 7250 3900
 Wire Wire Line
-	7250 4050 7250 4600
+	7250 3900 7250 4600
 Wire Wire Line
-	7150 4400 7150 5500
+	6500 4300 6500 5450
 Wire Wire Line
-	4800 3700 5250 3700
+	4800 3450 5700 3450
 Wire Bus Line
-	5900 3950 7550 3950
+	5900 3800 7550 3800
 Wire Bus Line
 	4500 1750 4700 1750
 Wire Wire Line
@@ -897,7 +873,7 @@ Connection ~ 2400 4250
 Wire Wire Line
 	4400 3200 4550 3200
 Wire Wire Line
-	4550 3200 4550 3850
+	4550 3200 4550 3750
 Wire Wire Line
 	3000 900  3000 1800
 Wire Wire Line
@@ -928,9 +904,9 @@ F 3 "https://en.wikipedia.org/wiki/Industry_Standard_Architecture" H 3700 3300 5
 $EndComp
 Wire Wire Line
 	2800 2400 3000 2400
-NoConn ~ 10850 6000
-NoConn ~ 10850 6100
-NoConn ~ 10850 6200
+NoConn ~ 10600 5950
+NoConn ~ 10600 6050
+NoConn ~ 10600 6150
 Wire Wire Line
 	9150 2300 9400 2300
 Wire Wire Line
@@ -1021,28 +997,28 @@ Wire Wire Line
 	2400 2200 2400 2600
 Wire Wire Line
 	2300 2200 2400 2200
-Text Notes 8950 5200 0    118  ~ 0
+Text Notes 8700 5150 0    118  ~ 0
 Clock Divisor
+NoConn ~ 6400 4400
 NoConn ~ 6400 4500
 NoConn ~ 6400 4600
-NoConn ~ 6400 4700
-NoConn ~ 3300 5950
-NoConn ~ 9550 5900
-NoConn ~ 9550 6100
+NoConn ~ 3400 5950
+NoConn ~ 9300 5850
+NoConn ~ 9300 6050
 Wire Wire Line
-	9800 5900 9800 6200
+	9550 5850 9550 6150
 Wire Wire Line
-	9800 6200 9550 6200
+	9550 6150 9300 6150
 Wire Wire Line
-	9800 5900 9850 5900
+	9550 5850 9600 5850
 Wire Wire Line
-	8550 6200 8550 6400
+	8300 6150 8300 6350
 Wire Wire Line
-	8550 6400 9850 6400
+	8300 6350 9600 6350
 Wire Wire Line
-	9850 6400 9850 6200
+	9600 6350 9600 6150
 Wire Wire Line
-	6400 4400 7150 4400
+	6400 4300 6500 4300
 $Comp
 L power:GND #PWR?
 U 1 1 616187F0
@@ -1281,11 +1257,6 @@ Wire Wire Line
 Wire Wire Line
 	2150 4350 2400 4350
 Connection ~ 2400 4350
-Text Notes 2800 5400 0    59   ~ 0
-Bizarre VCC en direct vers des pin de \nsignaux sur IC3 IC4
-Connection ~ 6000 1950
-Wire Bus Line
-	6000 1850 6000 1950
 $Comp
 L power:VCC #PWR?
 U 1 1 61E9B4AD
@@ -1353,47 +1324,36 @@ $EndComp
 $Comp
 L Device:R_Small R6
 U 1 1 61389152
-P 2800 6850
+P 2900 6900
 AR Path="/61389152" Ref="R6"  Part="1" 
 AR Path="/6126F7E9/61389152" Ref="R?"  Part="1" 
-F 0 "R6" V 2604 6850 50  0000 C CNN
-F 1 "1K" V 2695 6850 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" H 2800 6850 50  0001 C CNN
-F 3 "~" H 2800 6850 50  0001 C CNN
-	1    2800 6850
+F 0 "R6" V 2704 6900 50  0000 C CNN
+F 1 "1K" V 2795 6900 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" H 2900 6900 50  0001 C CNN
+F 3 "~" H 2900 6900 50  0001 C CNN
+	1    2900 6900
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:VCC #PWR?
 U 1 1 6138C872
-P 2800 7100
-F 0 "#PWR?" H 2800 6950 50  0001 C CNN
-F 1 "VCC" H 2815 7273 50  0000 C CNN
-F 2 "" H 2800 7100 50  0001 C CNN
-F 3 "" H 2800 7100 50  0001 C CNN
-	1    2800 7100
+P 2900 7050
+F 0 "#PWR?" H 2900 6900 50  0001 C CNN
+F 1 "VCC" H 2915 7223 50  0000 C CNN
+F 2 "" H 2900 7050 50  0001 C CNN
+F 3 "" H 2900 7050 50  0001 C CNN
+	1    2900 7050
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	2800 6650 2800 6750
-Connection ~ 2800 6650
+	2900 6650 2900 6750
 Wire Wire Line
-	2800 6950 2800 7100
-Connection ~ 1800 5250
+	2900 7000 2900 7050
 Wire Wire Line
-	1800 5250 2500 5250
-Wire Wire Line
-	1100 6400 1050 6400
-Connection ~ 1100 6400
-Wire Wire Line
-	1100 6400 1100 6650
-Wire Wire Line
-	1300 5250 1800 5250
-Wire Wire Line
-	1100 6650 2200 6650
-NoConn ~ 7050 5000
-NoConn ~ 7050 5100
-NoConn ~ 7050 5200
+	1200 6400 1150 6400
+NoConn ~ 6400 4900
+NoConn ~ 6400 5000
+NoConn ~ 6400 5100
 $Comp
 L 74xx:74LS138 IC10
 U 1 1 61519111
@@ -1520,10 +1480,10 @@ Wire Wire Line
 	3850 7150 3850 6700
 Wire Wire Line
 	3850 6700 4000 6700
-Text GLabel 3650 6900 0    50   Input ~ 0
+Text GLabel 3750 6900 0    50   Input ~ 0
 A_3xx
 Wire Wire Line
-	4000 6900 3650 6900
+	4000 6900 3750 6900
 $Comp
 L power:GND #PWR?
 U 1 1 61788179
@@ -1585,7 +1545,7 @@ Connection ~ 6550 6300
 Wire Wire Line
 	6550 6300 6400 6300
 Text GLabel 5400 6200 0    50   Input ~ 0
-A1
+A2
 Text GLabel 5400 6300 0    50   Input ~ 0
 A3
 Text GLabel 5400 6400 0    50   Input ~ 0
@@ -1811,16 +1771,86 @@ F 3 "" H 2400 2600 50  0001 C CNN
 $EndComp
 NoConn ~ 5150 6300
 NoConn ~ 5050 6300
-Text Notes 550  7100 0    50   ~ 0
+Text Notes 650  7100 0    50   ~ 0
 When DTRA\ is Low, DCDA is High\nwhen a Clock is received.\nWhen DRTA is High, DCDA\ is High
-Text Notes 550  7500 0    50   ~ 0
+Text Notes 650  7500 0    50   ~ 0
 CTSA\ is Low when there is no Input clock.\n-> The PC can send data
-Text Notes 9100 5450 0    50   ~ 0
-CLK=OSC/4\nTxCA=CLK/2=OSC/8=1.75MHz
+Text Notes 8850 5400 0    50   ~ 0
+CLK=OSC/4=3.5MHz\nTxCA=CLK/2=OSC/8=447KHz
 Text GLabel 10800 2550 1    50   Input ~ 0
 DACK1_3
 NoConn ~ 3000 4700
 NoConn ~ 3000 4800
+Text Notes 9350 4700 0    50   ~ 0
+Za,b,c copy Ia,b,c except if S=0
+Text Notes 850  4650 0    50   ~ 0
+Add delay to the IO Read/Write 
+Text Notes 550  6550 0    50   ~ 0
+Reception Clock
+Text Notes 1450 2050 1    50   ~ 0
+Reception Clock
+Text Notes 2450 2050 1    50   ~ 0
+Reception Data
+$Comp
+L power:VCC #PWR?
+U 1 1 61810656
+P 1400 5350
+F 0 "#PWR?" H 1400 5200 50  0001 C CNN
+F 1 "VCC" H 1415 5523 50  0000 C CNN
+F 2 "" H 1400 5350 50  0001 C CNN
+F 3 "" H 1400 5350 50  0001 C CNN
+	1    1400 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 61810E61
+P 2600 5350
+F 0 "#PWR?" H 2600 5200 50  0001 C CNN
+F 1 "VCC" H 2615 5523 50  0000 C CNN
+F 2 "" H 2600 5350 50  0001 C CNN
+F 3 "" H 2600 5350 50  0001 C CNN
+	1    2600 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 6700 1200 6700
+Wire Wire Line
+	1200 6700 1200 6400
+Connection ~ 1200 6400
+Wire Wire Line
+	2400 6350 2400 6750
+Wire Wire Line
+	2400 6750 2900 6750
+Connection ~ 2400 6750
+Connection ~ 2900 6750
+Wire Wire Line
+	2900 6750 2900 6800
+Wire Wire Line
+	2200 6900 2250 6900
+NoConn ~ 2200 5950
+$Comp
+L power:VCC #PWR?
+U 1 1 61931699
+P 2000 2800
+F 0 "#PWR?" H 2000 2650 50  0001 C CNN
+F 1 "VCC" H 2015 2973 50  0000 C CNN
+F 2 "" H 2000 2800 50  0001 C CNN
+F 3 "" H 2000 2800 50  0001 C CNN
+	1    2000 2800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2000 2700 2000 2800
+Wire Bus Line
+	6000 1850 6000 1950
+Entry Bus Bus
+	6000 1850 6100 1950
+Entry Bus Bus
+	6000 1950 6100 2050
+Connection ~ 6000 1950
+Entry Bus Bus
+	6000 2050 6100 2150
 Wire Bus Line
 	6000 1950 6000 2550
 Wire Bus Line
@@ -1828,11 +1858,7 @@ Wire Bus Line
 Wire Bus Line
 	4500 1750 4500 2500
 Wire Bus Line
-	5900 1950 5900 3950
+	5900 1950 5900 3800
 Wire Bus Line
-	7550 3000 7550 3950
-Text Notes 9350 4700 0    50   ~ 0
-Za,b,c copy Ia,b,c except if S=0
-Text Notes 850  4650 0    50   ~ 0
-Add delay to the IO Read/Write 
+	7550 3000 7550 3800
 $EndSCHEMATC
