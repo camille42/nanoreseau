@@ -82,6 +82,21 @@ Doc sur l'ISA :
 
 http://wearcam.org/ece385/lecture6/isa.htm
 
+Plus bas niveau, et très intéressant
+
+http://ancrobot.free.fr/fiches/pdf/index(5).pdf
+
 Intéressant sur le fonctionnement de l'ISA
 
 https://www.robots.ox.ac.uk/~adutta/blog/interfacing-with-the-isa-bus.html
+
+document original , avec du code
+
+https://thelinuxmaniac.wordpress.com/interfacing-with-the-isa-bus/
+
+https://thelinuxmaniac.wordpress.com/isa-c/
+
+
+A voir : 
+
+http://5lair.free.fr/PCB/
