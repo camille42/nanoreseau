@@ -31,11 +31,10 @@ IC15: D8253C-5 (Nec) ou 8253-5 (AMD) monté sur support
 Condensateurs
 ```
 C1, C8, C12: Tantale "Goutte" 4.7uF 35V
-C3: céramique 10pF 25V
-C4: céramique 22nF 25V
+C3: céramique 1nF 25V
+C4, C9, C10, C11, C13, C14, C15: céramique 22nF 25V
 C2, C5, C6: céramique 100nF 50V
 C7: céramique 10nF 25V
-C9, C10, C11, C13, C14, C15: céramique 22nF 25V
 C16: electrolytique 10uF 25V
 ```
 
@@ -50,7 +49,7 @@ Typical DMA Channel Assignments
 | DRQ 3 ( 8-bit) 	| User Available (Business audio, LPTx - ECP or EPP mode)      |
 | DRQ 4 (16-bit) 	| RESERVED (cascade channel) Memory-(DMA)-REFRESH              |
 | DRQ 5 (16-bit) 	| User Available (ISA bus)                                     |
-| DRQ 6 (16-bit) 	|User Available (ISA bus)                                      |
+| DRQ 6 (16-bit) 	| User Available (ISA bus)                                     |
 | DRQ 7 (16-bit) 	| User Available (ISA bus / 6384 P60/D Hard Disk)              |
 
 

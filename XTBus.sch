@@ -295,7 +295,7 @@ P 1250 5700
 AR Path="/61CC5FA2" Ref="C?"  Part="1" 
 AR Path="/6126F7E9/61CC5FA2" Ref="C3"  Part="1" 
 F 0 "C3" V 1500 5700 50  0000 C CNN
-F 1 "10pF, 25V" V 1400 5800 50  0000 C CNN
+F 1 "1nF, 25V" V 1400 5800 50  0000 C CNN
 F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm" H 1288 5550 50  0001 C CNN
 F 3 "~" H 1250 5700 50  0001 C CNN
 	1    1250 5700
@@ -498,12 +498,6 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS123" H 2900 6150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2400 5950 2400 5800
-Wire Wire Line
-	2400 5800 2600 5800
-Wire Wire Line
-	2600 5800 2600 5700
-Wire Wire Line
 	1400 5800 1200 5800
 Wire Wire Line
 	1200 5800 1200 5950
@@ -516,13 +510,8 @@ Wire Wire Line
 	1100 5700 1100 6050
 Wire Wire Line
 	1100 6050 1200 6050
-Connection ~ 2600 5700
 Wire Wire Line
 	2600 5700 2600 5650
-Wire Wire Line
-	2300 5700 2300 6050
-Wire Wire Line
-	2300 6050 2400 6050
 Wire Wire Line
 	1200 6350 1200 6400
 Wire Wire Line
@@ -1851,6 +1840,18 @@ Entry Bus Bus
 Connection ~ 6000 1950
 Entry Bus Bus
 	6000 2050 6100 2150
+Wire Wire Line
+	2400 5950 2300 5950
+Wire Wire Line
+	2300 5950 2300 5700
+Wire Wire Line
+	2400 6050 2350 6050
+Wire Wire Line
+	2350 6050 2350 5800
+Wire Wire Line
+	2350 5800 2600 5800
+Wire Wire Line
+	2600 5800 2600 5700
 Wire Bus Line
 	6000 1950 6000 2550
 Wire Bus Line
@@ -1861,4 +1862,5 @@ Wire Bus Line
 	5900 1950 5900 3800
 Wire Bus Line
 	7550 3000 7550 3800
+Connection ~ 2600 5700
 $EndSCHEMATC
