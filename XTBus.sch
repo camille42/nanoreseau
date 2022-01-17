@@ -105,15 +105,15 @@ A1
 $Comp
 L Device:R_Small R?
 U 1 1 61633523
-P 10400 2750
+P 10600 2700
 AR Path="/61633523" Ref="R?"  Part="1" 
 AR Path="/6123EC51/61633523" Ref="R?"  Part="1" 
 AR Path="/6126F7E9/61633523" Ref="R7"  Part="1" 
-F 0 "R7" V 10300 2750 50  0000 C CNN
-F 1 "4,7k" V 10500 2750 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" H 10400 2750 50  0001 C CNN
-F 3 "~" H 10400 2750 50  0001 C CNN
-	1    10400 2750
+F 0 "R7" V 10500 2700 50  0000 C CNN
+F 1 "4,7k" V 10700 2700 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" H 10600 2700 50  0001 C CNN
+F 3 "~" H 10600 2700 50  0001 C CNN
+	1    10600 2700
 	1    0    0    -1  
 $EndComp
 Text GLabel 7050 2000 2    50   Input ~ 0
@@ -220,8 +220,6 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS11" H 10900 4250 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	11000 3200 11000 3950
-Wire Wire Line
-	10000 2900 10400 2900
 Wire Wire Line
 	10500 3600 10500 3700
 Wire Wire Line
@@ -498,6 +496,12 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS123" H 2900 6150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
+	2400 5950 2400 5800
+Wire Wire Line
+	2400 5800 2600 5800
+Wire Wire Line
+	2600 5800 2600 5700
+Wire Wire Line
 	1400 5800 1200 5800
 Wire Wire Line
 	1200 5800 1200 5950
@@ -510,8 +514,13 @@ Wire Wire Line
 	1100 5700 1100 6050
 Wire Wire Line
 	1100 6050 1200 6050
+Connection ~ 2600 5700
 Wire Wire Line
 	2600 5700 2600 5650
+Wire Wire Line
+	2300 5700 2300 6050
+Wire Wire Line
+	2300 6050 2400 6050
 Wire Wire Line
 	1200 6350 1200 6400
 Wire Wire Line
@@ -550,10 +559,6 @@ Wire Wire Line
 	1200 6250 1100 6250
 Text GLabel 1150 6400 0    50   Input ~ 0
 ~RxCA+RxCB
-Text GLabel 9150 2700 2    50   Input ~ 0
-IC14_33
-Wire Wire Line
-	10400 2900 10400 2850
 Text GLabel 7050 2600 2    50   Input ~ 0
 ~TxCA
 Text GLabel 1500 2400 2    50   Input ~ 0
@@ -1249,31 +1254,23 @@ Connection ~ 2400 4350
 $Comp
 L power:VCC #PWR?
 U 1 1 61E9B4AD
-P 9800 2900
-F 0 "#PWR?" H 9800 2750 50  0001 C CNN
-F 1 "VCC" H 9815 3073 50  0000 C CNN
-F 2 "" H 9800 2900 50  0001 C CNN
-F 3 "" H 9800 2900 50  0001 C CNN
-	1    9800 2900
-	1    0    0    -1  
+P 9900 2700
+F 0 "#PWR?" H 9900 2550 50  0001 C CNN
+F 1 "VCC" H 9915 2873 50  0000 C CNN
+F 2 "" H 9900 2700 50  0001 C CNN
+F 3 "" H 9900 2700 50  0001 C CNN
+	1    9900 2700
+	0    1    1    0   
 $EndComp
-Wire Wire Line
-	10400 2900 10800 2900
-Wire Wire Line
-	10800 2900 10800 3950
-Connection ~ 10400 2900
-Wire Wire Line
-	10800 2900 10800 2550
-Connection ~ 10800 2900
 $Comp
 L power:VCC #PWR?
 U 1 1 61F0E658
-P 10400 2650
-F 0 "#PWR?" H 10400 2500 50  0001 C CNN
-F 1 "VCC" H 10415 2823 50  0000 C CNN
-F 2 "" H 10400 2650 50  0001 C CNN
-F 3 "" H 10400 2650 50  0001 C CNN
-	1    10400 2650
+P 10600 2600
+F 0 "#PWR?" H 10600 2450 50  0001 C CNN
+F 1 "VCC" H 10615 2773 50  0000 C CNN
+F 2 "" H 10600 2600 50  0001 C CNN
+F 3 "" H 10600 2600 50  0001 C CNN
+	1    10600 2600
 	1    0    0    -1  
 $EndComp
 Text Notes 7250 4800 0    59   ~ 0
@@ -1761,12 +1758,12 @@ $EndComp
 NoConn ~ 5150 6300
 NoConn ~ 5050 6300
 Text Notes 650  7100 0    50   ~ 0
-When DTRA\ is Low, DCDA is High\nwhen a Clock is received.\nWhen DRTA is High, DCDA\ is High
+When DTRA\ is Low: DCDA is Low\nwhen a Clock is received.\nWhen DTRA\ is High, DCDA\ is High
 Text Notes 650  7500 0    50   ~ 0
 CTSA\ is Low when there is no Input clock.\n-> The PC can send data
 Text Notes 8850 5400 0    50   ~ 0
 CLK=OSC/4=3.5MHz\nTxCA=CLK/2=OSC/8=447KHz
-Text GLabel 10800 2550 1    50   Input ~ 0
+Text GLabel 10800 2750 1    50   Input ~ 0
 DACK1_3
 NoConn ~ 3000 4700
 NoConn ~ 3000 4800
@@ -1840,18 +1837,70 @@ Entry Bus Bus
 Connection ~ 6000 1950
 Entry Bus Bus
 	6000 2050 6100 2150
+Text Notes 500  5100 0    50   ~ 0
+5us Delay : Clock Detection
+Text Notes 2750 5400 0    50   ~ 0
+200us Delay : Silence Detection
+Entry Wire Line
+	-10350 7850 -10250 7950
+Entry Wire Line
+	-10350 7850 -10250 7950
+Entry Wire Line
+	-10350 7850 -10250 7950
+Entry Wire Line
+	-10350 7850 -10250 7950
+Entry Wire Line
+	-10350 7850 -10250 7950
+Entry Wire Line
+	-10350 7850 -10250 7950
+Entry Wire Line
+	-10350 7850 -10250 7950
+Entry Wire Line
+	-10350 7850 -10250 7950
+Entry Wire Line
+	-2800 7750 -2700 7850
+Entry Wire Line
+	-5200 7800 -5100 7900
+Entry Wire Line
+	-3900 7750 -3800 7850
+Entry Wire Line
+	3650 4400 3750 4500
+Entry Wire Line
+	3600 4400 3700 4500
+Entry Wire Line
+	3650 4350 3750 4450
 Wire Wire Line
-	2400 5950 2300 5950
+	10800 2900 10800 2750
 Wire Wire Line
-	2300 5950 2300 5700
+	10800 2900 10800 3950
+Connection ~ 10800 2900
 Wire Wire Line
-	2400 6050 2350 6050
+	10000 2900 10600 2900
 Wire Wire Line
-	2350 6050 2350 5800
+	10600 2800 10600 2900
+Connection ~ 10600 2900
 Wire Wire Line
-	2350 5800 2600 5800
+	10600 2900 10800 2900
+$Comp
+L Device:R R2
+U 1 1 61F0AA5F
+P 9600 2700
+F 0 "R2" V 9500 2650 50  0000 L CNN
+F 1 "4.7K" V 9700 2650 50  0000 L CNN
+F 2 "" V 9530 2700 50  0001 C CNN
+F 3 "~" H 9600 2700 50  0001 C CNN
+	1    9600 2700
+	0    1    1    0   
+$EndComp
 Wire Wire Line
-	2600 5800 2600 5700
+	9150 2700 9450 2700
+Wire Wire Line
+	9750 2700 9800 2700
+Wire Wire Line
+	9800 2900 9800 2700
+Connection ~ 9800 2700
+Wire Wire Line
+	9800 2700 9900 2700
 Wire Bus Line
 	6000 1950 6000 2550
 Wire Bus Line
@@ -1862,5 +1911,4 @@ Wire Bus Line
 	5900 1950 5900 3800
 Wire Bus Line
 	7550 3000 7550 3800
-Connection ~ 2600 5700
 $EndSCHEMATC
