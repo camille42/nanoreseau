@@ -96,6 +96,3 @@ https://thelinuxmaniac.wordpress.com/interfacing-with-the-isa-bus/
 https://thelinuxmaniac.wordpress.com/isa-c/
 
 
-A voir : 
-
-http://5lair.free.fr/PCB/
